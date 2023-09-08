@@ -1,46 +1,98 @@
-.about{
+.about {
     display: flex;
     background-color: #fff;
     justify-content: space-around;
-    border: 2px solid red;
-}
-.text{
+    
+    
+  }
+  @media (max-width: 768px) {
+    .about {
+      margin-top: 3rem;
+    }
+  }
+  .Companylogo {
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+
+
+   
+  }
+
+  @media (max-width: 768px) {
+  .Companylogo {
+   width:65%;
+  }
+   
+  }
+  
+  .logo img {
+
+  }
+  
+  
+  .text {
     margin-left: 10rem;
-    margin-top: 5rem;
+    margin-top: 18rem;
     margin-bottom: 5rem;
-    background-color: aqua;
     border-radius: 20px;
-    height: 70vh;
+    height: 100%;
     margin-right: 5rem;
-    box-shadow:  10px 10px 10px ;
-}
-.text p{
+    box-shadow: 10px 10px 10px;
+  }
+  
+  .text p {
     color: black;
     font-size: 1.3rem;
-}
-/* .pic{
-
-    height: 90vh;
-    width:40%;
+  }
   
-} */
-/* .pic img{
-    margin-left: 2rem;
-    margin-top: 4rem;;
-    margin-right: 6rem;
-    height: 70%;
-    width: 100%;
-    box-shadow: 10px 5px 20px;
-    border-radius: 50%;
-} */
-
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     .text {
-        margin-left: 2rem; /* Adjust the left margin for smaller screens */
-        margin-right: 2rem; /* Adjust the right margin for smaller screens */
-        margin-top: 2rem; /* Adjust the top margin for smaller screens */
-        margin-bottom: 2rem; /* Adjust the bottom margin for smaller screens */
-        box-shadow: none; /* Remove the box shadow for smaller screens */
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      background-color:rgb(56, 236, 227) ;
     }
-}
+  }
+  
+  .Every-thing-about-JourneyStart {
+    height: 15rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .intro-video {
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 5rem;
+   
+   
+  }
+  .intro-video iframe{
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px;
+  }
 
+  
+  @media (max-width: 768px) {
+    .intro-video {
+      height: 14vh; /* Adjust the height for mobile screens */
+      margin-top: 2rem; /* Adjust the margin-top for mobile screens */
+      padding-top: 0.5rem;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+  .intro-video iframe{
+    height: 170%;
+    width: 85%;
+  }
+}
+  
